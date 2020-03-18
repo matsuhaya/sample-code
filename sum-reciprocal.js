@@ -3,9 +3,10 @@
 
 let answer = 0;
 let number = 1;
+let N = 12;
 
 const cal = answer => {
-  if (answer > 12) {
+  if (answer > N) {
     console.log(answer);
     console.log(number - 1);
     return;
